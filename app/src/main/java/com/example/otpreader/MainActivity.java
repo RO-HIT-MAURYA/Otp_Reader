@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("logIs","working");
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                "+917045154988",        // Phone number to verify
+                "+918898547306",        // Phone number to verify
                 1,                 // Timeout duration
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)
