@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "453538745229",
+    "firebase_url": "https://otp-reader-aa784.firebaseio.com",
+    "project_id": "otp-reader-aa784",
+    "storage_bucket": "otp-reader-aa784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453538745229:android:a96a6c1d3d35d2a6458bc4",
+        "android_client_info": {
+          "package_name": "com.example.otpreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453538745229-v6rot6qncr8a2bec123s1jjj83d0tvrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otpreader",
+            "certificate_hash": "19741c4375136bc6c8357059c791e1c0bdaa3e7b"
+          }
+        },
+        {
+          "client_id": "453538745229-f0qs69ulo956tf87kvitvddni9fmlarn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwKAqk9Gx81trkGeSIqABrEk3R35AdUa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453538745229-f0qs69ulo956tf87kvitvddni9fmlarn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
