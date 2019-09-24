@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential)
             {
                 Log.e("onVerificationCompleted",phoneAuthCredential.toString());
+                Log.e("otpIs",phoneAuthCredential.getSmsCode()+"");
                 signInWithPhoneAuthCredential(phoneAuthCredential);
             }
 
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("logIs","working");
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                "+918898547306",        // Phone number to verify
+                "+917045154988",        // Phone number to verify
                 1,                 // Timeout duration
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)
